@@ -17,7 +17,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - {t: E, h: ':'}
+  - E
   - R
   - T
   - $$mdi:arrow-down-bold$$
@@ -29,9 +29,9 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:backspace$$', h: CLCK}
   - A
-  - {t: S, h: (}
-  - {t: D, h: '~'}
-  - {t: F, h: )}
+  - S
+  - D
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
@@ -456,5 +456,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [14, 28, 40]
-  k: '&soft_off'
+- p: [28, 29]
+  k: (
+- p: [27, 28]
+  k: '~'
+- p: [30, 29]
+  k: )
