@@ -17,7 +17,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
+  - {t: E, h: ':'}
   - R
   - T
   - $$mdi:arrow-down-bold$$
@@ -29,9 +29,9 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:backspace$$', h: CLCK}
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: (}
+  - {t: D, h: '~'}
+  - {t: F, h: )}
   - G
   - $$mdi:arrow-left-bold$$
   - H
