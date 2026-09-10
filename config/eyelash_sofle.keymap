@@ -80,11 +80,6 @@
             key-positions = <30 29>;
         };
 
-        tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <29 41>;
-        };
-
         colon {
             bindings = <&kp COLON>;
             key-positions = <28 40>;
@@ -98,6 +93,11 @@
         rg {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <16 30>;
+        };
+
+        til {
+            bindings = <&kp TILDE>;
+            key-positions = <27 28>;
         };
     };
 
@@ -187,7 +187,7 @@
 
         layer_2 {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5           &kp UP_ARROW     &kp N6     &kp N7        &kp N8        &kp N9         &kp EQUAL       &kp BACKSPACE
+&kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5           &kp UP_ARROW     &kp N6     &kp N7        &kp N8        &kp N9         &kp EQUAL       &kp ASTERISK
 &kp TAB     &kp C         &kp W         &kp E         &kp R         &kp T            &kp DOWN_ARROW   &kp Y      &kp N7        &kp N8        &kp N9         &kp MINUS       &kp BSLH
 &kp GRAVE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp LEFT_ARROW   &kp H      &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS        &kp APOS
 &kp RCTRL   &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0           &kp RIGHT_ARROW  &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp FSLH        &kp RIGHT_SHIFT
