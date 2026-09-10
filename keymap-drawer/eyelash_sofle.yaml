@@ -143,7 +143,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '=', s: +}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '*'
   - $$mdi:keyboard-tab$$
   - C
   - W
@@ -460,11 +460,11 @@ combos:
   k: Ctl+C
 - p: [30, 29]
   k: Ctl+V
-- p: [29, 41]
-  k: '~'
 - p: [28, 40]
   k: ':'
 - p: [15, 16]
   k: (
 - p: [16, 30]
   k: )
+- p: [27, 28]
+  k: '~'
