@@ -29,3 +29,12 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: eyelash_sofle_standalone_settings_reset
+ # For the keyboard without the central dongle
+  - board: nrf52840dongle_nrf52840
+    shield: eyelash_sofle_central_left nice_view_gem
+    
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    artifact-name: eyelash_sofle_standalone_central_left
+  - board: nrf52840dongle_nrf52840
+    shield: eyelash_sofle_peripheral_right nice_view_gem
+    artifact-name: eyelash_sofle_standalone_peripheral_right
