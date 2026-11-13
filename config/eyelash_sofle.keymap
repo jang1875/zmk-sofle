@@ -230,7 +230,7 @@
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4          &kp N5           &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9         &kp N0     &kp BACKSPACE
 &kp TAB     &kp B      &kp L         &kp D         &kp C           &kp V            &kp DOWN_ARROW   &kp J      &kp Y      &kp O      &kp U          &kp COMMA  &kp BSLH
 &kp GRAVE   &kp N      &kp R         &kp T         &kp S           &kp G            &kp LEFT_ARROW   &kp P      &kp H      &kp A      &kp E          &kp I      &kp FSLH
-&kp LSHFT   &kp X      &kp Q         &kp M         &kp W           &kp Z            &kp RIGHT_ARROW  &kp K      &kp F      &kp APOS   &kp SEMI       &kp DOT    &kp RIGHT_SHIFT
+&kp LSHFT   &kp A      &kp Q         &kp M         &kp W           &kp Z            &kp RIGHT_ARROW  &kp K      &kp F      &kp APOS   &kp SEMI       &kp DOT    &kp RIGHT_SHIFT
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo GALLIUM_FN  &kp BACKSPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo UTILS  &kp RIGHT_ALT  &snap_win
             >;
 
